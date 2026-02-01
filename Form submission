@@ -1,0 +1,72 @@
+<html>
+
+<head>
+
+<title> Form </title>
+
+</head>
+
+<body>
+
+<h1 align = center> Form submission </h1>
+
+<form action="/cgi-bin/submit.cgi" method="post">
+
+Login Name:
+
+<input type="text" name="login" size=20> <br>
+
+password:
+
+<input type="passwd" name="pass" size=25>
+
+<br>
+Birthdate:
+
+<input type="text" name="login" size=20>
+
+<br>
+
+Sex: F
+
+<input type="radio" name="sex" value="p" CHECKED>
+
+M
+
+<input type="radio" name="sex" value="M"> <br>
+
+<br>
+
+<p> Place the order
+
+Shirt Size
+
+<select name="size"
+
+<option>small </option> <option> medium </option> <option> large </option> <option> xtra large </option>
+
+</select>
+
+<br>
+
+Give the comments here
+
+<br>
+
+<Textarea name="comments" rows=10 cols=20>
+
+</textarea>
+
+<input
+
+type="button" value="Check" onclick="validate()">
+
+<br>
+
+<input type="submit" value="Login" onclick="submit()"> <input type="reset" value="Clear" onclick="clear">
+
+</form>
+
+</body>
+
+</html>
